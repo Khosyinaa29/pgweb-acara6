@@ -46,6 +46,24 @@
                             <li>
                                 <a class="dropdown-item" href="rasiopenduduk.html">Rasio Jumlah Penduduk</a>
                             </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="persentasekesehatan.html">Rasio Angka Kematian dan Jumlah Tenaga Kesehatan</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="persentasekemiskinan.html">Persentase Kemiskinan</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="kepadatanpenduduk.html">Kepadatan Penduduk</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -99,16 +117,17 @@
         integrity="sha512-HctQcT5hnI/elQck4950pvd50RuDnjCSGSoHI8CNyQIYVxsUoyJ+gSQIOrll4oM/Z7Kfi7WCLMIbJbiwYHFCpA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
     <script>
         var options = {
-            series: [104, 97, 96, 97, 96, 94, 95, 98, 101, 99, 98, 93, 94, 95, 96, 97, 98, 97],
+            series: [104,97,96,97,96,94,95,98,101,99,98,93,94,95,96,97,98,97,],
             chart: {
                 type: 'donut',
                 width: 500
             },
-            labels: ['rendah', 'sedang', 'tinggi', 'sangat tinggi'],
+            labels: ['Poncol', 'Parang', 'Lambeyan', 'Takeran', 'Nguntoronadi',
+                    'Kawedanan', 'Magetan', 'Ngariboyo', 'Plaosan', 'Sidorejo', 'Panekan', 'Sukomoro',
+                    'Bendo', 'Maospati', 'Karangrejo', 'Karas', 'Barat', 'Kartoharjo'
+            ],
             responsive: [{
                 breakpoint: 480,
                 options: {

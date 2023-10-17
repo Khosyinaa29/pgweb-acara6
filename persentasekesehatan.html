@@ -38,7 +38,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="jeniskelamin.html">Jumlah Penduduk Laki-Laki</a>
+                                <a class="dropdown-item" href="jeniskelamin.html">Penduduk Menurut Jenis Kelamin</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -50,7 +50,8 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="persentasekesehatan.html">Rasio Angka Kematian dan Jumlah Tenaga Kesehatan</a>
+                                <a class="dropdown-item" href="persentasekesehatan.html">Rasio Angka Kematian dan Jumlah
+                                    Tenaga Kesehatan</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -67,10 +68,11 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" data-bs-toggle="modal" 
-                        data-bs-target="infoModal"> <i class="fa-solid fa-circle-info"></i>Info</a>
+                        <a class="nav-link" aria-disabled="true" data-bs-toggle="modal" data-bs-target="infoModal"> <i
+                                class="fa-solid fa-circle-info"></i>Info</a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -78,7 +80,7 @@
     <div class="container mt-4">
         <div class="card">
             <div class="card-header">
-                <h2>Jumlah Penduduk </h2>
+                <h2>Rasio Angka Kematian dan Jumlah Tenaga Kesehatan</h2>
             </div>
             <div class="card-body">
                 <div id="chart"></div>
@@ -91,16 +93,16 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        <i> class="fa-solid fa-circle-info"></i>Information</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Nama : Khosyi Nur Aliya</p>
-                    <p>NIM : 22/503629/SV/21524</p>
-                    <p>Kelas : B</p>
-                    <p> Sumber Data : BPS <a href="https://magetankab.bps.go.id/"
-                        target="_blank">https://magetankab.bps.go.id/</a>/</p>
+                    <p>Nama: Khosyi Nur Aliya</p>
+                    <p>NIM: 22/503629/SV/21524</p>
+                    <p>Kelas: B</p>
+                    <p>Sumber Data : BPS <a href="https://magetankab.bps.go.id/"
+                            target="_blank">https://magetankab.bps.go.id/</a>
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -112,80 +114,117 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.42.0/apexcharts.min.js"
         integrity="sha512-HctQcT5hnI/elQck4950pvd50RuDnjCSGSoHI8CNyQIYVxsUoyJ+gSQIOrll4oM/Z7Kfi7WCLMIbJbiwYHFCpA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         var options = {
-            series: [{
-                name: 'Jumlah Penduduk',
-                data: [25.903, 31.007, 37.956, 24.684, 46.447, 41.804, 33.095,
-                    58.392, 28.676, 52.573, 39.825, 45.387, 42.575, 21.638,
-                    39.247, 42.873, 45.612, 31.675]
-            }],
+            series: [
+                {
+                    name: "Poncol",
+                    data: [
+                        [340, 41]]
+                }, {
+                    name: "Parang",
+                    data: [
+                        [580, 49]]
+                }, {
+                    name: "Lembeyan",
+                    data: [
+                        [332, 44]]
+                }, {
+                    name: "Takeran",
+                    data: [
+                        [580, 51]]
+                }, {
+                    name: "Nguntoronadi",
+                    data: [
+                        [522, 41]]
+                }, {
+                    name: "Kawedanan",
+                    data: [
+                        [285, 87]]
+                }, {
+                    name: "Magetan",
+                    data: [
+                        [429, 502]]
+                }, {
+                    name: "Ngariboyo",
+                    data: [
+                        [304, 41]]
+                }, {
+                    name: "Plaosan",
+                    data: [
+                        [860, 81]]
+                }, {
+                    name: "Sidorejo",
+                    data: [
+                        [399, 34]]
+                }, {
+                    name: "Panekan",
+                    data: [
+                        [627, 78]]
+                }, {
+                    name: "Sukomoro",
+                    data: [
+                        [613, 44]]
+                }, {
+                    name: "Bendo",
+                    data: [
+                        [299, 45]]
+                }, {
+                    name: "Maospati",
+                    data: [
+                        [627, 172]]
+                }, {
+                    name: "Karangrejo",
+                    data: [
+                        [533, 56]]
+                }, {
+                    name: "Karas",
+                    data: [
+                        [588, 43]]
+                }, {
+                    name: "Barat",
+                    data: [
+                        [375, 78]]
+                }, {
+                    name: "Kartoharjo",
+                    data: [
+                        [287, 42]]
+                }],
             chart: {
-                type: 'bar',
-                height: 350
-            },
-            plotOptions: {
-                bar: {
-                    horizontal: false,
-                    columnWidth: '55%',
-                    endingShape: 'rounded',
-                    dataLabels: {
-                        position: 'top',
-                    },
-                },
-            },
-            dataLabels: {
-                enabled: false
-            },
-            stroke: {
-                show: true,
-                width: 2,
-                colors: ['transparent']
+                height: 700,
+                type: 'scatter',
+                zoom: {
+                    enabled: true,
+                    type: 'xy'
+                }
             },
             xaxis: {
-                categories: ['Poncol', 'Parang', 'Lambeyan', 'Takeran', 'Nguntoronadi',
-                    'Kawedanan', 'Magetan', 'Ngariboyo', 'Plaosan', 'Sidorejo', 'Panekan', 'Sukomoro',
-                    'Bendo', 'Maospati', 'Karangrejo', 'Karas', 'Barat', 'Kartoharjo'],
-                title: {
-                    text: 'Kecamatan'
-                }
-            },
-            yaxis: {
-                title: {
-                    text: 'Jiwa'
-                }
-            },
-            fill: {
-                opacity: 1
-            },
-            tooltip: {
-                y: {
+                tickAmount: 10,
+                labels: {
                     formatter: function (val) {
-                        return val + " jiwa"
+                        return parseFloat(val).toFixed(1)
+                title: {
+                    text: 'Jumlah Kematian Penduduk'
+                }
                     }
                 }
             },
-            dataLabels: {
-                enabled: true,
-                formatter: function (val) {
-                    return val + "%";
-                },
-                offsetY: -20,
-                style: {
-                    fontSize: '8px',
-                    colors: ["#304758"]
-                }
+            title: {
+                text: 'Perbandingan angka kematian (horizontal) dan jumlah tenaga kesehatan (vertikal)'
             },
+            yaxis: {
+                title: {
+                    text: 'Jumlah Tenaga Kesehatan',
+            },
+            }
         };
 
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
-
     </script>
 </body>
 
